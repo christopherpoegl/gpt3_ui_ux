@@ -57,6 +57,7 @@
     
     background: #FF4820;
     border-radius: 5px;
+    cursor: pointer;
  }
 
  .gpt3__navbar-menu{
@@ -88,7 +89,7 @@
  }
 
  .gpt3__navbar-menu_container p{
-    margin: 1rem;
+    margin: 1rem 0;
  }
 
  .gpt3__navbar-menu-container-links-sign{
@@ -110,17 +111,20 @@
     }
  }
 
- @media screen and(max-width: 550px){
+ @media screen and (max-width: 550px){
     .gpt3__navbar {
         padding: 2rem;
     }
+
     .gpt3__navbar-sign {
         display: none;
     }
+
     .gpt3__navbar-menu_container {
         top: 20px;
     }
-    .gpt3__navbar-menu_container-links-sign{
+
+    .gpt3__navbar-menu_container-links-sign {
         display: block;
     }
  }
